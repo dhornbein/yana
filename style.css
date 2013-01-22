@@ -12,7 +12,7 @@ Version: 0.1
 
 /*over rides*/
 
-#register #social {
+header #social {
 background: transparent;
 line-height: inherit;
 margin: 0;
@@ -26,13 +26,15 @@ Base
 Layout
 /////////////////////////////////////////////////*/
 
-#banner { margin: 0; }
+header:first-child { margin-top: 0; } 
+header #banner { margin: 0 0 -60px; }
+header #social .icons { padding-right: 15px; }
 
 /*/////////////////////////////////////////////////
 Theme
 /////////////////////////////////////////////////*/
 
-header .description { color: white; padding-left:1.5em; }
+header .description { color: white; padding-left:15px; }
 
 .icons a img { opacity: .8; }
 
