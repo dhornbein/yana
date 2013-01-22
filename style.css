@@ -34,7 +34,7 @@ header #social .icons { padding-right: 15px; }
 Theme
 /////////////////////////////////////////////////*/
 
-header .description { color: white; padding-left:15px; }
+header .description { color: white; font-size:36px; margin:0; padding-left:15px; }
 
 .icons a img { opacity: .8; }
 
